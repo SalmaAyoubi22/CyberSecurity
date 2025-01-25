@@ -1,10 +1,6 @@
-# CyberSecurity
-# Logbook
+| Date       | Hours     | Subject      | Notes                 |
+|------------|-----------|------------  |-----------------------|
+| 2025-01-17 | 2h        | First Lecture|  Course assessment understanding|
 
-## 2025-01-17 - Task Logs
 
-### Course lunch
-- **Time**: 08:00 AM
-- **Task**:   First lecture 
-- **Notes**: Understanding of course assesment
 
