@@ -3,9 +3,6 @@
 | 2025-01-17 | 2h        | First Lecture|  Course assessment understanding|
 |2025-02-08  |3h         | Portswigger enviroment| Understanding of SQL Injection|
 |2025-02-09  | 5h        | Portswigger           |study of the material+ reporting|
-|2025-04-14  | 2h        | Phase 1-part 1| Study material |
-|2025-04-15  | 4h        | Phase 1-part1 |    Study material+reporting       |
-|2025-04-16   | 2h        |    phase 1-part1    |     reporting             |
 |2025-04-18   | 2h        | Cisco  |   Module 1|
 |2025-04-18    | 3h       |  Cisco| Module 1+ Module 2|
-|2025-04-19    |4h        |Cisco | Module 3+ Module4|
+|2025-04-19    |6h        |Cisco | Module 3+ Module4+Module 5+EXAM|
