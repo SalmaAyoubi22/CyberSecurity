@@ -16,4 +16,5 @@
 | 2025-05-03     | 6h | Booking System - Phase1 - Part1&2 |  Write updated report of phase 1 and upload both reports to GitHub |
 | 2025-05-04    | 1h30mins | Final Report| Updated version of final report(Cisco, Portseigger, and Phase 1 both parts) |
 
-**Total**: 49h (Not including the lessons' recordings)
+**Total:** 49h 
+**PS:** I didn't include the time I spent on the lessons' recordings
