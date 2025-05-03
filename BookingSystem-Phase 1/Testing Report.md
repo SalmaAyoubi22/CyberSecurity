@@ -110,14 +110,6 @@ CSP (Content Security Policy) is an important security feature that helps protec
 When reviewing the HTTP response headers for the /register page, it was found that the Content-Security-Policy (CSP) header is not set, exposing the application to XSS and data injection risks.
 - **URL:** `http://localhost:8000/register`
 - **Method:** `GET`
-- **Response Headers:**  
-    ```
-    content-encoding: br
-    content-length: 357
-    content-type: text/html; charset=UTF-8
-    date: Thu, 20 Feb 2025 08:23:48 GMT
-    vary: Accept-Encoding
-    ```
 
 ### **Recommendations:**
 -  Add a Content-Security-Policy header to all HTTP responses.
