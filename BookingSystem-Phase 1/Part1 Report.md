@@ -8,7 +8,7 @@ ZAP by [Checkmarx](https://checkmarx.com/).
 | Risk Level | Number of Alerts |
 | --- | --- |
 | High | 1 |
-| Medium | 2|
+| Medium | 3|
 | Low | 2 |
 | Informational | 1 |
 
