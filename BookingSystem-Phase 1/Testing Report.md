@@ -15,11 +15,11 @@ The objective was to uncover potential security vulnerabilities and assess compl
 - **Testing User:** Created a test account (`joker/joker123`) for testing.
 
 ### **Scope of Testing**
-- **Tested Component:** User Registration Page (only)
-- **Excluded:** Login, Resource Booking, Administrator Functions (not implemented in Phase 1)
+- **Tested Component:** User Registration Page
+- **Excluded:** Login, Resource Booking, Administrator Functions 
 - **Focus Areas:**
   - Input Validation (SQL Injection)
-  - Data Encryption & Storage Security
+  - Data Encryption 
 
 ### **Methods and Tools Used for Testing**
 - **ZAP** – Automated scanning & active attack testing.
@@ -38,14 +38,14 @@ The objective was to uncover potential security vulnerabilities and assess compl
 
 2. **Passwords Stored in Plaintext (Critical)**  
    - The database stores **plaintext passwords**, which is a **major security risk** and **GDPR non-compliant**.  
-   - **Fix:** Implement **bcrypt** or **Argon2** hashing for password storage.
+   - **Fix:** Implement **bcrypt** or **Argon2**  for password storage.
 
 ### **General Assessment**
 The system contains serious security vulnerabilities, such as SQL Injection and unencrypted password storage.
-These issues pose a high risk of data breaches, unauthorized access, and non-compliance with security standards, and must be addressed immediately.
+These issues pose a high risk of data breaches, unauthorized access, and non-compliance with security standards, and must be fixed immediately.
 ---
 
-## **3. Findings and Categorization**
+## ** Findings and Categorization**
 
 ### ** 1. SQL Injection in Registration Form (High)**
 **Risk Level:**  **High**  
@@ -67,7 +67,7 @@ The output of the query was as follows:
 | joker    | joker123  |
 | admin    | admin123  |
 
-The passwords are stored in plaintext, making the system susceptible to unauthorized access.
+The passwords are stored in plaintext, making the system in the risk to unauthorized access.
 
 ### Recommendations:
 Use prepared statements (parameterized queries) to safely handle user input and prevent SQL injection.
@@ -81,7 +81,7 @@ Sanitize and validate all user input to ensure it does not contain SQL control c
 - If an attacker gains access to the database, they can see all user passwords.
 
 **Evidence:**  
-Query to database:  
+Database query:  
 ```sql
 SELECT username, password FROM xyz123_users;
 ```
