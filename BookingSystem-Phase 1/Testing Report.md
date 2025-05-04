@@ -4,7 +4,7 @@
 
 ### **Purpose of the Report**
 This report summarizes the penetration testing performed on the user registration module of the Booking System (Phase 1). 
-The objective was to uncover potential security vulnerabilities and assess compliance with security best practices, with a specific focus on input validation and data encryption mechanisms.
+The objective was to uncover potential security vulnerabilities and assess compliance with best practices, specifically focusing on input validation and data encryption mechanisms.
 
 ### **Testing Schedule and Environment**
 - **Testing Date:** 25-04-2025
