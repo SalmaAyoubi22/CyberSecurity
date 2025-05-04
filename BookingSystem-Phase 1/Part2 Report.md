@@ -17,11 +17,11 @@ ZAP by [Checkmarx](https://checkmarx.com/).
 
 | Name | Risk Level | Number of Instances |
 | --- | --- | --- |
-| SQL Injection | High | 7 |
+| SQL Injection | High | 4 |
 | Content Security Policy (CSP) Header Not Set | Medium | 1 |
 | Format String Error | Medium | 1 |
 | Missing Anti-clickjacking Header | Medium | 1 |
-| X-Content-Type-Options Header Missing | Low | 3 |
+| X-Content-Type-Options Header Missing | Low | 2 |
 
 
 
