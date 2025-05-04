@@ -144,6 +144,7 @@ The X-Content-Type-Options header is missing, allowing MIME-sniffing attacks.
 ---
 
 ## **Refs**
-**ZAP report in the Booking system - Phase 1 folder**
+**ZAP report in the Booking system - Phase 1**
+
 **Commands used during testing (manual SQL queries)**
 
