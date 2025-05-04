@@ -8,7 +8,7 @@ The objective was to uncover potential security vulnerabilities and assess compl
 
 ### **Testing Schedule and Environment**
 - **Testing Date:** 25-04-2025
-- **New Testing Date:** 05-02-2025
+- **New Testing Date:** 02-05-2025
 
 - **Environment:** Localhost (`http://localhost:8000/register`)
 - **Testing Methodology:**  Both automated scanning using ZAP and manual analysis.
